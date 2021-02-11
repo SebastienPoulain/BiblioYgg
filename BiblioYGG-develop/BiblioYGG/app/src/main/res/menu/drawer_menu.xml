@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_accueil"
+            android:icon="@drawable/ic_home"
+            android:title="Accueil" />
+
+        <item
+        android:id="@+id/nav_location"
+        android:icon="@drawable/ic_location_foreground"
+        android:title="Localisation" />
+
+        <item
+            android:id="@+id/nav_gestion_livres"
+            android:icon="@drawable/ic_modify"
+            android:title="Gestion des livres" />
+    </group>
+
+    <item android:title="Compte">
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_login"
+                android:title="Connexion/Inscription" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Déconnexion" />
+        </menu>
+    </item>
+
+</menu>
